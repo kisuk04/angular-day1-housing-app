@@ -20,21 +20,21 @@
 ```bash
 npm install -g @angular/cli
 ```
-###🔹2. Clone โปรเจคนี้จาก GitHub
+### 🔹 2.  Clone โปรเจคนี้จาก GitHub
 ```bash
 git clone https://github.com/kisuk04/angular-day1-housing-app.git
 ```
-###🔹3. ติดตั้ง Dependencies
+### 🔹 3. ติดตั้ง Dependencies
 ```bash
 npm install
 ```
-###🔹4. เริ่มต้น JSON Server สำหรับ API Mock Data 
+### 🔹 4. เริ่มต้น JSON Server สำหรับ API Mock Data 
 ```bash
 json-server --watch db.json --port 3000
 ```
 📌 หลังจากรันคำสั่งนี้ สามารถเข้าถึง API ได้ที่
 👉 http://localhost:3000/locations
-###🔹 5. รันโปรเจค Angular
+### 🔹 5. รันโปรเจค Angular
 ```bash
 ng serve
 ```
